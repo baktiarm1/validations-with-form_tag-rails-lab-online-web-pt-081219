@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   end
 
   def new
-    @author= Post.new
+    @post= Post.new
   end
 
   def create
